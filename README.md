@@ -53,8 +53,10 @@ Built with a focus on simplicity, scalability, and real-time data synchronizatio
 ```bash
 git clone https://github.com/yuvika-pabba/happenly.git
 cd happenly
+```
 
-2. Create virtual environment (recommended)
+### 2. Create virtual environment (recommended)
+```
 python -m venv venv
 
 # Mac/Linux
@@ -62,20 +64,27 @@ source venv/bin/activate
 
 # Windows
 venv\Scripts\activate
+```
 
-3. Install dependencies
+### 3. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-4. Set environment variables
+### 4. Set environment variables
 Create a .env file in the root directory:
-
+```
 SUPABASE_URL=your_supabase_url
 SUPABASE_KEY=your_supabase_anon_key
+```
 
-5. Run the app
+### 5. Run the app
+```
 streamlit run app.py
+```
 
-📦 Project Structure
+## 📦 Project Structure
+```
 happenly/
 │
 ├── app.py
@@ -90,13 +99,14 @@ happenly/
 ├── utils/
 ├── database/
 └── README.md
+```
 
-🧩 Key Learnings
-Building full-stack apps using Python
-Working with Supabase as a backend-as-a-service
-Designing real-time database-driven applications
-Structuring collaborative projects for scalability
-Improving UI/UX in Streamlit applications
+## 🧩 Key Learnings
+- Building full-stack apps using Python
+- Working with Supabase as a backend-as-a-service
+- Designing real-time database-driven applications
+- Structuring collaborative projects for scalability
+- Improving UI/UX in Streamlit applications
 
 
-⭐ If you like this project, feel free to star the repository!
+#### ⭐ If you like this project, feel free to star the repository!
